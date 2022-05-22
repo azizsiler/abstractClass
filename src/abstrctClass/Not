@@ -1,0 +1,17 @@
+
+
+Abstract sınıfları genel olarak inheritance (kalıtım) uygularken kullanırız.
+new anahtar sözcüğü ile nesneleri oluşturulamaz.
+İçerisinde değişken ve metod bulundurabilir.
+Abstract sınıflardan türetilen sınıfların abstract metodları implement etmesi zorunludur.
+Diğer metodları override etmeden de kullanabilir.
+Constructors (yapıcı metodlar) ve destructors (yıkıcı metodlar) bulundurabilirler.
+Static tanımlanamazlar. ( Tanımlanmaya çalışılırsa compiler “an abstract class cannot be sealed or static”
+hatası verir)
+Bir sınıf yalnızca bir abstract sınıfı inheritance yoluyla implement edebilir.
+Çoklu kalıtım (multiple inheritance) desteklenmez.
+Abstract olmayan metodları da bulundurabilir.
+Kendisinden inherit alacak sınıflar ile arasında “is-a” ilişkisi vardır.
+(Burası ilk başlarda çok önemsenmeyen ancak hangi senaryoda
+Abstract hangi senaryoda Interface kullanacağımızı netleştirmede bize oldukça yardımcı olan bir detaydır,
+hemen aşağıda açıklamasını bulabilirsiniz)
